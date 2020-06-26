@@ -44,8 +44,9 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-$blue-color-dark:     #00369f !default;
 blog_name: Dreams comes true
+$blue-color-dark:     #00369f !default;
+
 blog_description: until become influencer
 
 # Pagination
