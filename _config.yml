@@ -44,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: My name is GHeeJeon
+blog_description: 버킷리스트 개발일지
 
 # Pagination
 paginate: 4
