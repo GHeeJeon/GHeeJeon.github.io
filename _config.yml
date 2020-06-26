@@ -44,10 +44,9 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Dreams comes true
+blog_name: imHUNGRY ;(
 $blue-color-dark:     #00369f !default;
-$max-content-width: 800px;
-blog_description: until become influencer
+blog_description: lots of commit(아마도) 그러니까 워치해놓으면 삥뽕 잔뜩 올 거예요 배고파요
 
 # Pagination
 paginate: 4
