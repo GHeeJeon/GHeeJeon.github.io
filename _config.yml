@@ -44,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: My name is GHeeJeon
-blog_description: 버킷리스트 개발일지
+blog_name: Dreams comes true
+blog_description: until become influencer
 
 # Pagination
 paginate: 4
