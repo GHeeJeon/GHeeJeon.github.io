@@ -1,6 +1,5 @@
 title: my-ggott blog
 description: my-ggott language 로 번역한 자료를 모아놓았어요.
-
 url: https://gheejeon.github.io/
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
