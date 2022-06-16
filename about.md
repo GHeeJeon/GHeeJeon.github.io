@@ -6,19 +6,17 @@ title: my-ggott blog
 <div class="post">
 	<h1 class="pageTitle">blog based on <br> my-ggott language</h1>
 	<img src="{{ '/assets/img/touring.jpg' }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
+	<p class="intro">ㅇ0ㅇ 마이깟!!</p>
+	<p>배운 지식을 my-ggott language 로 번역해 둔 곳입니다.</p>
+	<h2>TMI</h2>
 	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+  		<li>my-ggott language 는 한글을 문자로 사용합니다.</li>
+  		<li>my-ggott language 의 문법은 한국어의 문법체계와 동일합니다.</li>
+		<li>업로드 주기는 따로 정해져있지 않습니다.</li>
+  		<li>구체적으로 어떤 지식을 주로 번역할 것인지는 정해지지 않았습니다.</li>
+  		<li>일단 머리 속에 있는 건 전부 꺼내 볼 생각입니다.</li>
+		<li>전부 라고 해봤자 얼마나 될지는 모르겠지만요...</li>
+  		<li>어느 정도 포스트가 모이면 장르 별로 분류할 예정입니다.</li>
+  		<li>잘못된 내용이나 오탈자가 있을 경우, 보충설명이 필요한 경우 언제든 알려주세요!</li>
   	</ul>
 </div>
