@@ -5,7 +5,7 @@ title: my-ggott blog
 
 <div class="post">
 	<h1 class="pageTitle">blog based on <br> my-ggott language</h1>
-	<img src="{{ '/assets/img/touring.jpg' }}" alt="">
+	<img src="{{ '/assets/img/blue_rose_garden.jpg' }}" alt="">
 	<p class="intro">ㅇ0ㅇ 마이깟!!</p>
 	<p>배운 지식을 my-ggott language 로 번역해 둔 곳입니다.</p>
 	<h2>TMI</h2>
