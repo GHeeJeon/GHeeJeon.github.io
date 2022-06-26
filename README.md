@@ -3,5 +3,5 @@
 배운 내용을 my-ggott language 로 번역해 둔 곳입니다.
 
 Link: https://gheejeon.github.io/  
-Theme: [long-haul](https://github.com/brianmaierjr/long-haul)  
+Theme: [long-haul](https://github.com/GHeeJeon/GHeeJeon.github.io)  
 Reference: https://pages.github.com/
