@@ -1,33 +1,29 @@
-title: my-ggott blog
-description: my-ggott language 로 번역한 자료를 모아놓았어요.
-url: https://gheejeon.github.io/
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+# Site settings
+title: *folio
+email: you@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace, helvetica based portfolio theme.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: twitter_username
+github_username:  github_username
 
-# Header Option
-# header: large
-
+# Build settings
 markdown: kramdown
+
 highlighter: rouge
-plugins: [jekyll-paginate]
-paginate: 5
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
 
-social:
-  github: GHeeJeon
-  twitter:
-  facebook:
-  email: jhjeon_99@naver.com
-  linkedin:
 
-google_analytics: "UA-58263416-1"
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
 
-disqus:
-    shortname: GHeeJeon
+

@@ -1,22 +1,29 @@
 ---
-layout: default
-title: my-ggott blog
+layout: page
+title: about
+permalink: /about/
 ---
 
-<div class="post">
-	<h1 class="pageTitle">blog based on <br> my-ggott language</h1>
-	<img src="{{ '/assets/img/blue_rose_garden.jpg' }}" alt="">
-	<p class="intro">ㅇ0ㅇ 마이깟!!</p>
-	<p>배운 지식을 my-ggott language 로 번역해 둔 곳입니다.</p>
-	<h2>TMI</h2>
-	<ul>
-  		<li>my-ggott language 는 한글을 문자로 사용합니다.</li>
-  		<li>my-ggott language 의 문법은 한국어의 문법체계와 동일합니다.</li>
-		<li>업로드 주기는 따로 정해져있지 않습니다.</li>
-  		<li>구체적으로 어떤 지식을 주로 번역할 것인지는 정해지지 않았습니다.</li>
-  		<li>일단 머리 속에 있는 건 전부 꺼내 볼 생각입니다.</li>
-		<li>전부 라고 해봤자 얼마나 될지는 모르겠지만요...</li>
-  		<li>어느 정도 포스트가 모이면 장르 별로 분류할 예정입니다.</li>
-  		<li>잘못된 내용이나 오탈자가 있을 경우, 보충설명이 필요한 경우 언제든 알려주세요!</li>
-  	</ul>
+<img class="col one right" src="/img/prof_pic.jpg">
+
+<br/>
+Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
+
+Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
+
+
+<br/>
+<hr/>
+<br/>
+<span class="contacticon center">
+	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
+	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+</span>
+
+<div class="col three caption">
+	You can even add a little note about which of these is the best way to reach you.
 </div>
+
