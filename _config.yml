@@ -1,12 +1,11 @@
 # Site settings
-title: *folio
-email: you@example.com
+title: my-ggott blog
+email: jhjeon_99@naver.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-twitter_username: twitter_username
-github_username:  github_username
+  ㅇ0ㅇ 마이깟!! 배운 내용을 my-ggott language 로 번역해 둔 곳입니다.
+baseurl: # the subpath of your site, e.g. /blog/
+url: # the base hostname & protocol for your site
+github_username: GHeeJeon
 
 # Build settings
 markdown: kramdown
