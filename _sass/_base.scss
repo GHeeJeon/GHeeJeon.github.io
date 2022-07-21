@@ -33,10 +33,9 @@ $purple: #B509AC;
 $periwinkle: #CCCCFF;
 $salmon_pink: #FF91A4;
 
-
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color: #666;
+$text-color: #999;
 
 /* Set theme color *************************/
 $theme-color: $periwinkle;
@@ -132,7 +131,7 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
+        color: $salmon_pink;
         text-decoration: none;
     }
 }

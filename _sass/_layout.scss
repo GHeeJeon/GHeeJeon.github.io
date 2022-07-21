@@ -3,9 +3,9 @@
  * Site header   **********************************************************
  */
 .site-header {
-border-bottom: 1px solid $grey-color-light;
-background-color: #fff;
-opacity: 0.75;
+border-bottom: 1px solid $salmon_pink;
+background-color: $periwinkle;
+opacity: 0.95;
 position:fixed;
 left:0px;
 top:0px;
@@ -21,7 +21,7 @@ letter-spacing: -1px;
 margin-bottom: 0;
 &:hover {
 text-decoration: none;
-color: $theme-color;
+color: $salmon_pink;
     }
 }
 .site-nav {
@@ -74,7 +74,7 @@ display: line;
  * Site footer  **********************************************************
  */
 .site-footer {
-border-top: 1px solid $grey-color-dark;
+border-top: 1px solid $salmon_pink;
 font-size: 10px;
 background-color: $grey-color-dark;
 padding: 2px;
