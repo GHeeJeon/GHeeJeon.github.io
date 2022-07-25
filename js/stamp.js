@@ -6,7 +6,7 @@ function stamp() {
     const x = event.pageX;
     const y = event.pageY;
     const content = document.querySelector(".content");
-    stampImg.src = tempUrl;
+    stampImg.src = imgUrl;
     stampImg.alt = "파란 장미 도장";
     stampImg.style.position = "absolute";
     stampImg.style.left = x - 50 + "px";
