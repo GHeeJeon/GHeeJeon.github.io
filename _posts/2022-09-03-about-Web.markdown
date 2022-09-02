@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "about Web"
+date:   2022-09-03 02:21:48 +0900
+categories: web
+---
+
+# Web, 근데이제 요청과 응답을 곁들인
+
+## TCP? UDP?
+
+## HTTP?
+### HTTP 응답코드
+
+## 웹이 뭔데?
+
+## 서버? 클라이언트?
+
+## 요청 및 응답 과정
+
+## API?
+
+## REST?
+
+## 파싱? 크롤링?
