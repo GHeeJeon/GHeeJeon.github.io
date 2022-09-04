@@ -46,6 +46,9 @@ categories: web
 > 일부 클라이언트는 디스크 저장 용량이 제한되거나 아예 없으며,  
 > 작동하려면 서버의 원격 파일 시스템에 의존해야 한다.
 
+![Client-server-model svg](https://user-images.githubusercontent.com/47032054/188305410-18ba6b38-8344-4991-babc-61859a1ab9ff.png "https://en.wikipedia.org/wiki/Client%E2%80%93server_model")
+
+
 
 ## HTTP?
 
