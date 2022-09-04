@@ -60,7 +60,7 @@ categories: web
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/47032054/188308218-528afb46-6ef8-4249-aa29-33d5dfd0c10a.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/47032054/188311212-5d19abc6-9b3b-4872-a98a-f18583d8ada6.png" width="75%" height="75%">
 
 <br/>
 
