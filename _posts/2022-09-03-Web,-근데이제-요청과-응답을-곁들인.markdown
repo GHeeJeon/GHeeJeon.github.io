@@ -7,6 +7,8 @@ categories: web
 
 ## 웹이 뭔데?
 
+<br/>
+
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Glossary/World_Wide_Web) 에 의하면,  
 > 웹은 인터넷을 통해 액세스할 수 있는  
 > 공용 웹 페이지의 상호 연결된 시스템
@@ -36,18 +38,31 @@ categories: web
 
 ## 서버? 클라이언트?
 
+<br/>
+
 [오라클 문서](https://docs.oracle.com/cd/E19455-01/805-7228/6j6q7ueov/index.html) 에 의하면,
 
 ### 서버란?
+
+<br/>
+
 > 네트워크의 다른 시스템에 서비스를 제공하는 시스템
 
+<br/>
+
 ### 클라이언트란?
+
+<br/>
+
 > 서버의 원격 서비스를 사용하는 시스템   
 > 일부 클라이언트는 디스크 저장 용량이 제한되거나 아예 없으며,  
 > 작동하려면 서버의 원격 파일 시스템에 의존해야 한다.
 
-<img src="https://user-images.githubusercontent.com/47032054/188305410-18ba6b38-8344-4991-babc-61859a1ab9ff.png" width="25%" height="25%">
+<br/>
 
+<img src="https://user-images.githubusercontent.com/47032054/188305410-18ba6b38-8344-4991-babc-61859a1ab9ff.png" width="50%" height="50%">
+
+<br/>
 
 ## HTTP?
 
