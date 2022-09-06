@@ -265,6 +265,7 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 
 <br/>
 
+<!--
 ## TCP? UDP?
 
 ## API?
@@ -272,3 +273,4 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 ## REST?
 
 ## 파싱? 크롤링?
+-->
