@@ -167,10 +167,11 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 `GET`, `HEAD`, `DELETE`, `OPTIONS` 처럼 리소스를 가져오는 요청은 보통 본문이 필요 없다.  
 (HTML 폼 데이터를 포함하는) `POST` 요청일 경우 업데이트를 하기 위해 서버에 데이터를 전송한다.
 
-넓게 보면 본문은 두가지 종류로 나뉩니다.
+넓게 보면 본문은 두가지 종류로 나뉜다.
 
-단일-리소스 본문(single-resource bodies): 헤더 두 개(Content-Type와 Content-Length)로 정의된 단일 파일로 구성된다.
-다중-리소스 본문(multiple-resource bodies): 멀티파트 본문으로 구성되는 다중 리소스 본문에서는 파트마다 다른 정보를 지니게 됩니다. 보통 HTML 폼과 관련이 있다.
+단일-리소스 본문(single-resource bodies): 헤더 두 개(Content-Type와 Content-Length)로 정의된 단일 파일로 구성된다.  
+다중-리소스 본문(multiple-resource bodies): 멀티파트 본문으로 구성되는 다중 리소스 본문에서는 파트마다 다른 정보를 지니게 된다.  
+보통 HTML 폼과 관련이 있다.
 
 <br/>
 
@@ -180,7 +181,7 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 
 HTTP 응답의 시작 줄은 상태 줄(status line)이라고 불린다.  
 
-`HTTP/1.1` `404` `Not Found.`
+ex) `HTTP/1.1` `404` `Not Found.`
 
 **프로토콜 버전** : `HTTP/1.1`  
 **[상태 코드](https://www.w3schools.com/tags/ref_httpmessages.asp)** : 요청의 성공 여부, `404`  
@@ -209,13 +210,49 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 본문은 응답의 마지막 부분에 들어가며, 201, 204과 같은 상태 코드를 가진 응답에는 보통 본문이 없다.  
 넓게 보면 본문은 세가지 종류로 나뉜다.
 
-이미 길이가 알려진 단일 파일로 구성된 단일-리소스 본문: 헤더 두개(Content-Type와 Content-Length)로 정의한다.
-길이를 모르는 단일 파일로 구성된 단일-리소스 본문: Transfer-Encoding가 chunked로 설정되어 있으며, 파일은 청크로 나뉘어 인코딩 되어 있다.
-서로 다른 정보를 담고 있는 멀티파트로 이루어진 다중 리소스 본문: 이 경우는 상대적으로 위의 두 경우에 비해 보기 힘들다.
+이미 길이가 알려진 단일 파일로 구성된 단일-리소스 본문: 헤더 두개(Content-Type와 Content-Length)로 정의한다.  
+길이를 모르는 단일 파일로 구성된 단일-리소스 본문: Transfer-Encoding가 chunked로 설정되어 있으며, 파일은 청크로 나뉘어 인코딩 되어 있다.  
+서로 다른 정보를 담고 있는 멀티파트로 이루어진 다중 리소스 본문: 이 경우는 상대적으로 위의 두 경우에 비해 보기 힘들다.  
+
+<br/>
+
+## URL? URI?
+
+<br/>
+
+> **U**niform **R**esource **I**dentifier
+> > 인터넷에 존재하는 각종 정보들의 유일한 이름이나 위치를 표시하는 식별자  
+> > URI 에는 고유한 위치를 표시하는 URL 과 고유한 이름을 표시하는 URN 이 있다.  
+> 
+> `scheme`://`host` `:port`/`path`?`quary`  
+> > `scheme` : 인터넷 서비스 유형 (http, https 등)  
+> > `host` : 웹 서버, 내부적으로 도메인을 ip주소로 변환하여 인식    
+> > `port` : 호스트의 포트번호 (80, 443 등, 브라우저에서 생략)  
+> > `path` : 서버 경로 (생략된 경우: 사이트의 루트 디렉터리)  
+> > `quary` : 쿼리 데이터를 path 로 전달  
+
+> **U**niform **R**esource **L**ocator  
+> 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약
+> > 웹 브라우저는 URL을 사용하여 웹 서버에서 페이지를 요청한다.
+> 
+> `scheme`://`prefix.domain` `:port`/`path`/`filename`  
+> > `prefix` : 도메인 접두사 (http 의 기본값은 www)  
+> > `domain` : 인터넷 도메인 이름 (w3schools.com)  
+> > `filename` : 문서 또는 리소스의 이름  
+
+> **U**niform **R**esource **N**ames  
+> > 웹 문서의 물리적인 위치와 상관없이 웹 문서 자체를 지시  
+> > URN은 URL과는 달리 정보의 실제위치에 관계없이 해당 정보에 접근 가능  
+> 
+> `urn`:`[namespace identifier]`:`[namespace specific string]`
+> > `urn` : 형식 지정, 나는 `urn` 이다.  
+> > ex) urn:isbn:096139210x
 
 <br/>
 
 ## HTML?
+
+<br/>
 
 [W3Schools](https://www.w3schools.com/html/html_intro.asp) 에 따르면,  
 
@@ -225,6 +262,8 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용됩니�
 > > elements 로 구성되어 있다.  
 > > elements 는 브라우저에 내용을 표시하는 방법을 알려준다.  
 > > elements 는 content 레이블을 지정한다. <sub>(`head`, `title` 등)</sub>
+
+<br/>
 
 ## TCP? UDP?
 
