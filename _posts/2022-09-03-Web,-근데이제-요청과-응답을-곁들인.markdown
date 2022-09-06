@@ -276,6 +276,9 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용된다.
 <br/>
 
 ### HTML 샘플 문서
+
+<br/>
+
 ~~~html
 <!DOCTYPE html>
 <html>
