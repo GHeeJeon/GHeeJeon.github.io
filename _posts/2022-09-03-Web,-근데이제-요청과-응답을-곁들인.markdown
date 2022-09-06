@@ -227,12 +227,12 @@ Entity 헤더: Content-Length와 같은 헤더는 요청 본문에 적용된다.
 > > 인터넷에 존재하는 각종 정보들의 유일한 이름이나 위치를 표시하는 식별자  
 > > URI 에는 고유한 위치를 표시하는 URL 과 고유한 이름을 표시하는 URN 이 있다.  
 > 
-> `scheme`://`host` `:port`/`path`?`quary`  
+> `scheme`://`host` `:port`/`path`?`query`  
 > > `scheme` : 인터넷 서비스 유형 (http, https 등)  
 > > `host` : 웹 서버, 내부적으로 도메인을 ip주소로 변환하여 인식    
 > > `port` : 호스트의 포트번호 (80, 443 등, 브라우저에서 생략)  
 > > `path` : 서버 경로 (생략된 경우: 사이트의 루트 디렉터리)  
-> > `quary` : 쿼리 데이터를 path 로 전달  
+> > `query` : 쿼리 데이터를 path 로 전달  
 
 > **U**niform **R**esource **L**ocator  
 > 네트워크 상에서 자원이 어디 있는지를 알려주기 위한 규약
