@@ -102,6 +102,9 @@ plt.legend(loc=0)
 <br/>
 
 ## 코드
+
+<br/>
+
 ```python
 import csv
 from matplotlib import pyplot as plt
