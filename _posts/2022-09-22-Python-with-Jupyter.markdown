@@ -99,6 +99,9 @@ plt.legend(loc=0)
 > `ls` 에 지원되는 값은 다음과 같습니다.  
 > '-', '--', '-.', ':', 'None', ' ',  '' , 'solid', 'dashed', 'dashdot', 'dotted'
 
+<br/>
+
+## 코드
 ```python
 import csv
 from matplotlib import pyplot as plt
