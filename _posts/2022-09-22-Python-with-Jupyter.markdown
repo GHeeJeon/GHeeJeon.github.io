@@ -9,6 +9,8 @@ categories: python
 <summary>개발환경(클릭)</summary>
 <div markdown="1">
 
+<br/>
+
 ![OS](https://img.shields.io/badge/OS-macOS%20Monterey-lightgrey)
 ![Language](https://img.shields.io/badge/Language-Python-%234B8BBE)
 ![Platform](https://img.shields.io/badge/Platform-Jupyter-%23EB7425)
