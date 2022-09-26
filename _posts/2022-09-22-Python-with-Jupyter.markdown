@@ -11,7 +11,7 @@ categories: python
 
 <br/>
 
-![OS](https://img.shields.io/badge/OS-macOS%20Monterey-lightgrey)
+![OS](https://img.shields.io/badge/OS-macOS%20Monterey-lightgray)
 ![Language](https://img.shields.io/badge/Language-Python-%234B8BBE)
 ![Platform](https://img.shields.io/badge/Platform-Jupyter-%23EB7425)
 ![Library](https://img.shields.io/badge/Library-Matplotlib-%23306998)

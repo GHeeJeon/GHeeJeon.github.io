@@ -33,9 +33,8 @@ $purple: #B509AC;
 $periwinkle: #CCCCFF;
 $salmon_pink: #FF91A4;
 
-$grey-color-dark: #333;   /* footer */
-$grey-color-light: #ddd;  /* navigation bar border */
-$text-color: #999;
+$gray-color-dark: #333;   /* footer */
+$gray-color-light: #ddd;  /* navigation bar border */
 
 /* Set theme color *************************/
 $theme-color: $periwinkle;
@@ -125,13 +124,13 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $text-color;
     text-decoration: none;
-    /*
+
     &:visited {
-        color: darken($brand-color, 15%); 
-    }
-    */
-    &:hover {
         color: $salmon_pink;
+    }
+
+    &:hover {
+        color: $periwinkle;
         text-decoration: none;
     }
 }
@@ -152,7 +151,7 @@ article a {
  */
 blockquote {
     color: $text-color;
-    border-left: 10px solid $grey-color-light;
+    border-left: 10px solid $gray-color-light;
     padding-left: $horizontal-spacing-unit / 2;
     font-size: 18px;
     font-style: italic;
@@ -171,7 +170,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $grey-color-light;
+    background-color: $gray-color-light;
 }
 
 code {
