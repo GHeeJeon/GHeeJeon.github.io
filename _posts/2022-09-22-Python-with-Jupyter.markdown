@@ -108,34 +108,3 @@ plt.legend(loc=0)
 <br/>
 
 <script src="https://gist.github.com/GHeeJeon/d4a8959461fb018a7f90a64ba873888b.js"></script>
-```python
-import csv
-from matplotlib import pyplot as plt
-
-f = open('incheon_weather.csv', 'r', encoding ='CP949')
-data = csv.reader(f)
-next(data)
-high = []
-low = []
-
-for row in data:
-    if row[-1] != '' and row[-2] != '':
-            if row[0].split('-')[1] == '01' and row[0].split('-')[2] == '07':
-                high.append(float(row[-1]))
-                low.append(float(row[-2]))
-
-f.close()
-
-# print(len(high))
-
-plt.rcParams['axes.unicode_minus'] = False
-plt.rc('font', family = 'NanumGothic')
-plt.suptitle('매년 1월 7일의 최고기온과 최저기온')
-plt.xlabel('1904년을 기준으로 몇 년이 지났는가')
-plt.ylabel('기온')
-plt.plot(high, color='#ff91a4', label='최고기온', ls='-')
-plt.plot(low, color='#ccccff', label='최저기온', ls='-')
-plt.legend(loc=0)
-plt.show()
-
-```
