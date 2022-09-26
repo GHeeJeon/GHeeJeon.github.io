@@ -107,7 +107,7 @@ plt.legend(loc=0)
 
 <br/>
 
-<script src="https://gist.github.com/GHeeJeon/002c8dea5a01ec2857228527ed036752.js"></script>
+<script src="https://gist.github.com/GHeeJeon/d4a8959461fb018a7f90a64ba873888b.js"></script>
 ```python
 import csv
 from matplotlib import pyplot as plt
