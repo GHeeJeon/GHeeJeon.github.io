@@ -3,6 +3,7 @@
  */
 .highlight {
     background: #dddddd;
+    color: $background-color;
     @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment
