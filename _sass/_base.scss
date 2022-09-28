@@ -150,8 +150,8 @@ article a {
  * Blockquotes
  */
 blockquote {
-    color: $text-color;
-    border-left: 10px solid $gray-color-light;
+    color: $gray-color-light;
+    border-left: 10px solid $gray-color;
     padding-left: $horizontal-spacing-unit / 2;
     font-size: 18px;
     font-style: italic;
