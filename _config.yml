@@ -1,4 +1,5 @@
-remote_theme: just-the-docs/just-the-docs
+theme: jekyll-theme-clean-blog
+
 title:              Clean Blog
 email:              your-email@example.com
 description:        A Blog Theme by Start Bootstrap
